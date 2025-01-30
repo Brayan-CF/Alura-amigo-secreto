@@ -2,6 +2,8 @@
 
 alert('hola prueba')
 alert('eres vos')
+
+let amigos = [ ]
 //let nombre = 'Brayan'
 //let edad = 15
 //let numeroVentas = 40
