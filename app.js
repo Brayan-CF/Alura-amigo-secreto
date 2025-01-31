@@ -17,16 +17,18 @@ function agregarAmigo() {
 elemento <li>
 */
 function mostrarAmigos() {
+
   let lista = document.getElementById('ListaAmigos');
 
   lista.innerHTML = "";
 
   for (let i = 0; i < amigos.length; i++){
-      //Crear un elemento <li> y asignarle el nombre del amigo en la posicion i
-      let elemento = document.createElement('li');
-      elemento.textContent = amigos[i];
-      //Agregar el elemento <li> a la lista
-      lista.appendChild(elemento);
+
+    //Crear un elemento <li> y asignarle el nombre del amigo en la posicion i
+    let elemento = document.createElement('li');
+    elemento.textContent = amigos[i];
+    //Agregar el elemento <li> a la lista
+    lista.appendChild(elemento);
   }
 }
 
