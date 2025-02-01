@@ -13,7 +13,8 @@ function agregarAmigo() {
   mostrarAmigos();
 }
 
-/* Implementacion de función que recorra el array amigos y agregue cada nombre como un
+/* 
+Implementacion de función que recorra el array amigos y agregue cada nombre como un
 elemento <li>
 */
 function mostrarAmigos() {
@@ -22,8 +23,7 @@ function mostrarAmigos() {
 
   lista.innerHTML = "";
 
-  for (let i = 0; i < amigos.length; i++){
-
+  for (let i = 0; i < amigos.length; i++) {
     //Crear un elemento <li> y asignarle el nombre del amigo en la posicion i
     let elemento = document.createElement('li');
     elemento.textContent = amigos[i];
