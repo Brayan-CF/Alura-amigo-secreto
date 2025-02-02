@@ -17,6 +17,20 @@ function agregarAmigo() {
   }
 }
 
+// Implementación de función para sortear un amigo.
+function sortearAmigo() {
+  if (amigos.length === 0) {
+    alert("No hay amigos para sortear.");
+    return;
+  }
+
+  const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+  const amigoSorteado = amigos[indiceAleatorio];
+
+  const resultado = document.getElementById('resultadoSorteo');
+  resultado.innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
+}
+
 // Implementación de función que recorra el array amigos y agregue cada nombre como un elemento <li>
 function mostrarAmigos() {
   const lista = document.getElementById('listaAmigos');
