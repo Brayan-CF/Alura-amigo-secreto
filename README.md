@@ -1,4 +1,5 @@
 # Amigo Secreto
+*Alura and Oracle* 
 
 Este proyecto es una aplicación web para organizar un sorteo de amigo secreto. Permite a los usuarios agregar nombres de amigos y realizar un sorteo aleatorio para seleccionar a un amigo secreto.
 
@@ -16,6 +17,19 @@ El proyecto tiene la siguiente estructura de archivos:
 - **Mostrar Amigos**: Muestra la lista de amigos agregados.
 - **Sortear Amigo**: Realiza un sorteo aleatorio para seleccionar a un amigo secreto de la lista.
 
+## Tecnologías utilizadas 🛠️
+- **HTML5**: Estructura semántica y organización del contenido.
+- **CSS3**: Estilos modernos, animaciones, y diseño responsivo.
+- **JavaScript**: Lógica para gestionar la lista de amigos y el sorteo aleatorio.
+
+## Instalación 🔧
+### 1. Clona el repositorio:
+```bash
+git clone https://github.com/Brayan-CF/Alura-amigo-secreto.git
+```
+
+### 2. Abre el archivo `index.html`:
+Después de clonar el repositorio, abre el archivo `index.html` en tu navegador web favorito para ver la aplicación en funcionamiento.
 ## Uso
 
 1. Abre `index.html` en un navegador web.
