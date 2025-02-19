@@ -36,5 +36,5 @@ Después de clonar el repositorio, abre el archivo `index.html` en tu navegador 
 2. Ingresa el nombre de un amigo en el campo de texto y haz clic en el botón "Añadir".
 3. La lista de amigos se actualizará automáticamente.
 4. Haz clic en el botón "Sortear amigo" para seleccionar un amigo secreto aleatoriamente.
-
+5. Y luego si quieres volver a empezar solo refresca la pagina para empezar de nuevo.
 
